@@ -32,9 +32,10 @@ class ForeignPassport(Passport):
     def add_visa(self, visa):
         self.visas.append(visa)
     
-    # def remove_visa(self, fname):
-    #     for fname in self.visas:
-    #         if visa.fname == fnamme
+    def remove_visa(self, abiding_place):
+        for fname in self.visas:
+            if visa.abiding_place == abiding_place:
+                self.visas.remove(visa)
 
 
 
